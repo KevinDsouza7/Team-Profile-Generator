@@ -6,8 +6,9 @@ const generateHTML = require("./src/generateHTML");
 const path = require("path")
 const fs = require("fs");
 
-const OUTPUT_DIR = path.resolve(__dirname, "output");
-const outputPath = path.join(OUTPUT_DIR, "team.html");
+
+const OUTPUT_DIR = './dist';
+const outputPath = path.join(OUTPUT_DIR, "team=profile.html");
 
 const render = require("./src/page-template.js");
 
